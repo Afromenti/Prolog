@@ -1,0 +1,10 @@
+kolor(natka, zielona).
+kolor(sałata, zielona).
+kolor(papryka, zielona).
+kolor(pomidor, czerwony).
+kolor(papryka, czerwona).
+kolor(cytryna, żółta).
+kolor(papryka, żółta).
+
+smaczne(X) :- 
+    kolor(X, zielona).
